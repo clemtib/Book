@@ -423,6 +423,9 @@ footer{
 
 @media screen and (min-width: 769px) and (max-width: 991px){
 
+    h4{
+        font-size: 90%;
+    }
     .loupe{
         display: none;
     }
@@ -504,6 +507,9 @@ footer{
     .rechercheSection {
         margin: 20px;
     }
+    .navTitle h3{
+        padding-right: 100px;
+    }
 
     form {
         margin-top: 16px;
@@ -530,7 +536,7 @@ footer{
     }
 
     .filter {
-        font-size: 80%;
+        font-size: 70%;
         width: 100%;
         margin-top: 16px;
         padding: 0;
@@ -613,9 +619,14 @@ footer{
         padding: 16px;
     }
 
+    #activiteTitle{
+        padding-right: 200px;
+    }
+
     .containerActivite {
         flex-direction: column;
         row-gap: 30px;
+        margin-top: 10px;
     }
 
     a.activite {
@@ -627,7 +638,8 @@ footer{
     }
 
     img.activite {
-        height: 150px;
+        /* width: 450px; */
+        height: 130px;
     }
 
     footer {
